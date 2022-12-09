@@ -1,15 +1,124 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Refsgaard bossGG</title>
-        <link href="index.css" rel="stylesheet">
+        <meta name="main page" content="This is the main page of the website" />
+        <link href="css/styles.css" rel="stylesheet">
     </head>
 
     <body>
-        
-        <div id="image">
-            <img src="ninja_turtles_meme.png">
+
+        <div class="wrapper">
+
+            <header id="headerBox">
+                <div id="navBar1">
+                    <a href="about.html">Dette er en navbar</a>
+                </div>
+
+                <div id="overskrift2">
+                    <h1>Web of the year</h1>
+                </div>
+
+            </header>
+
+            <main id="mainBox">
+
+                <div id="sad_pog_box1">
+                    <img id="sad_pog_img" src="img/NINJATmeme.jpg">
+
+                </div> 
+
+                <div id="tableBox">
+                    <table>
+                        <tbody id="tableElements">
+                            <tr id="tableHeader">
+                                <th>Games,yes games</th>
+                                <th>Non Games</th>
+                            </tr>
+                            <tr>
+                                <th class="l1">DvERGer</th>
+                                <th class="l1">banan</th>
+                            </tr>
+                            <tr>
+                                <th class="l1">RED ded</th>
+                                <th class="l1">gress</th>
+                            </tr>
+                            <tr>
+                                <th class="l1">Super dang</th>
+                                <th class="l1">Kcat</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div id="lamaVidBox">
+                    <!--<iframe width="80%" height="100%" src="https://www.youtube.com/embed/FqC2lO3Yy_4?list=PLPPomK5QKeyWV7PYC9s-PxrDhVIDpt4Oe" title="Lama Tanz" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                </div>
+
+                <div id="ListBox">
+                    <input type="button" onclick=showList() value="Display list">
+                    <ol id="listOfNames">
+                        <li class="elName">Poco Loco</li>
+                        <li class="elName">Monaco</li>
+                        <li class="elName">White</li>
+                        <li class="elName">lemon</li>
+                        <li class="elName">Original</li>
+                    </ol>
+                </div>
+
+                <div id="formsBox">
+                    <fieldset> 
+                        <legend id="colorLegend">Megadi Pogidi</legend>
+                        <form>
+                            <label for="firstname">Fornavn:</label><br>
+                            <input type="text" id="firstname" name="firstname"><br>
+                            <label for="lastname">Etternavn:</label><br>
+                            <input type="text" id="lastname" name="lastname"><br>
+
+                            <label for="test"><a id="txtLabel">test:</a></label><br>
+                            <input type="text" id="test" name="test"><br>
+                            
+                            <input type="button" onclick=addToTable() value="Table">
+                            <input type="button" onclick=removeTable() value="rm Table">
+                            <input type="button" onclick=theTest() value="the T">
+                          </form>   
+                    </fieldset>
+                </div>
+
+                <div id="articleBox">
+                    <h1><a id="headerArticle" href="https://www.deeprockgalactic.com/">AI - favorite game</a></h1>
+
+                    <article>
+                        Deep Rock Galactic er et first-person shooter og survival-spil, der er 
+                        udviklet af Ghost Ship Games og udgivet af Coffee Stain Publishing. Det 
+                        fokuserer på co-op multiplayer og har spillere, der kontrollerer fire dwarven
+                        rumsoldater, der udforsker indrejse mørke og farlige underjordiske huler på 
+                        forskellige planeters overflader.
+                        <br> <br>
+                        Spillet indeholder forskellige klasser, herunder driller, gunner, røver og
+                        ingeniør, hver med deres unikke færdigheder og våben. Spillere skal samarbejde
+                        for at overleve mod vilde fjender, som inkluderer massive krybende krybdyr og 
+                        gigantiske, aggressive insekter.
+                        <br> <br>
+                        Alt i alt er Deep Rock Galactic et sjovt og udfordrende spil, der fokuserer 
+                        på co-op multiplayer og har en stor vægt på brydning og udforskning. Hvis du 
+                        er en fan af first-person shooters og survival-spil, vil du helt sikkert nyde 
+                        at spille Deep Rock Galactic.
+                    </article>
+                </div>
+                
+                <div id="textBox">
+                    <a id="p_txt1">Well....a</a>
+                </div>
+
+            </main>
+                
+            <footer id="footerBox">
+                © Copyright Termly 2022
+            </footer>
+
         </div>
 
+            <script src="script.js"></script>
     </body>
+
 </html>
