@@ -23,7 +23,7 @@ function theTest() {
 }
 
 function hmrConsole() {
-    console.log("Hello HmR")
+    console.log("Hello World!")
 
 }
 
@@ -60,8 +60,6 @@ function addToTable(){
 }
 
 function removeTable() {
-
-    console.log("Av en eller annen merkelig grunn på man trygger på rm btn 2 ganger ved de som er pre langt inn")
     let elTable = document.querySelector("#tableElements");
     elTable.lastChild.remove();
 }
